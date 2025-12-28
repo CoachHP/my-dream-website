@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-display text-2xl tracking-widest mb-4">PHYSIQUE</h3>
+            <h3 className="font-display text-2xl tracking-widest mb-4">CONTA ACADEMY</h3>
             <p className="text-body max-w-md">
               Evidence-based physique coaching for serious lifters who train hard 
               but aren't seeing elite results.
@@ -55,7 +55,7 @@ export const Footer = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Physique Coaching. All rights reserved.
+            © {new Date().getFullYear()} Conta Academy. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
