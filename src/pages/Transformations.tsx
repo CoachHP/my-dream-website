@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import transformation1 from "@/assets/transformation-1.jpg";
 import transformation2 from "@/assets/transformation-2.jpg";
 import transformation3 from "@/assets/transformation-3.jpg";
-import heroTransformation from "@/assets/hero-transformation.jpg";
+import alexTransformation from "@/assets/alex-transformation.png";
 
 const transformations = [
   {
-    image: heroTransformation,
-    name: "James M.",
+    image: alexTransformation,
+    name: "Alex C.",
     duration: "24 weeks",
     quote: "The structure changed everything. I was training hard but going nowhere. Now every session has purpose.",
     age: "34",
