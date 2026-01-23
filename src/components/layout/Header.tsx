@@ -26,12 +26,12 @@ export const Header = () => {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 to={link.href}
-                className={`text-xs uppercase tracking-widest transition-colors hover:text-foreground ${
+                className={`text-xs uppercase tracking-widest transition-colors hover:text-foreground whitespace-nowrap ${
                   location.pathname === link.href
                     ? "text-foreground"
                     : "text-muted-foreground"
