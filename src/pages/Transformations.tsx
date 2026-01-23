@@ -73,7 +73,7 @@ const Transformations = () => {
                   <img
                     src={item.image}
                     alt={item.alt}
-                    className="w-full aspect-[16/10] object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full aspect-[16/10] object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent" />
                 </div>
