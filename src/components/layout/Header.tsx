@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoGym from "@/assets/logo-gym.jpg";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -21,7 +22,8 @@ export const Header = () => {
       <div className="container-wide px-6 md:px-12">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="font-display text-xl md:text-2xl tracking-widest">
+          <Link to="/" className="flex items-center gap-2 font-display text-xl md:text-2xl tracking-widest">
+            <img src={logoGym} alt="Conta Academy Logo" className="h-8 md:h-10 w-auto rounded" />
             CONTA ACADEMY
           </Link>
 
