@@ -21,7 +21,7 @@ const programs = [
     price: "$119"
   },
   {
-    name: "Recomposition",
+    name: "Longevity",
     goal: "Build muscle while losing fat",
     experience: "Intermediate",
     duration: "16 weeks",
