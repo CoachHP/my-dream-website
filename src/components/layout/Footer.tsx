@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-
 export const Footer = () => {
-  return (
-    <footer className="bg-secondary border-t border-border">
+  return <footer className="bg-secondary border-t border-border">
       <div className="container-wide px-6 md:px-12 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
           {/* Brand */}
@@ -44,9 +42,7 @@ export const Footer = () => {
               <Link to="/apply" className="text-sm text-body hover:text-foreground transition-colors">
                 Apply for Coaching
               </Link>
-              <a href="mailto:contact@physique.com" className="text-sm text-body hover:text-foreground transition-colors">
-                contact@physique.com
-              </a>
+              <a href="mailto:contact@physique.com" className="text-sm text-body hover:text-foreground transition-colors">aconta.coaching@gmail.com</a>
             </nav>
           </div>
         </div>
@@ -67,6 +63,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
