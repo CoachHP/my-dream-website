@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const programs = [
   {
-    name: "Foundation",
+    name: "Hypertrophy",
     goal: "Build a solid training base",
     experience: "Beginner to Intermediate",
     duration: "8 weeks",
