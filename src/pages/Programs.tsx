@@ -13,7 +13,7 @@ const programs = [
     price: "$79"
   },
   {
-    name: "Hypertrophy",
+    name: "Longevity",
     goal: "Maximize muscle growth",
     experience: "Intermediate to Advanced",
     duration: "12 weeks",
