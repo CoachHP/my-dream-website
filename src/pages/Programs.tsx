@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 const programs = [
   {
     name: "Home Training",
-    goal: "Build muscle with precision",
+    goal: "Train anywhere, consistently",
     experience: "Beginner to Intermediate",
     duration: "8 weeks",
     focus: ["Movement fundamentals", "Progressive overload basics"],
