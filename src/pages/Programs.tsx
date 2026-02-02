@@ -2,37 +2,30 @@ import { Link } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
-const programs = [
-  {
-    name: "Hypertrophy",
-    goal: "Build muscle with precision",
-    experience: "Beginner to Intermediate",
-    duration: "8 weeks",
-    focus: ["Movement fundamentals", "Progressive overload basics"],
-    price: "$79"
-  },
-  {
-    name: "Home Training",
-    goal: "Train anywhere, consistently.",
-    experience: "Intermediate to Advanced",
-    duration: "12 weeks",
-    focus: ["Volume optimization", "Muscle-specific training"],
-    price: "$119"
-  },
-  {
-    name: "Longevity",
-    goal: "Protect your future self",
-    experience: "Intermediate",
-    duration: "16 weeks",
-    focus: ["Strategic nutrition timing", "Training intensity protocols"],
-    price: "$149"
-  }
-];
-
+const programs = [{
+  name: "Hypertrophy",
+  goal: "Build muscle with precision",
+  experience: "Beginner to Intermediate",
+  duration: "8 weeks",
+  focus: ["Movement fundamentals", "Progressive overload basics"],
+  price: "$79"
+}, {
+  name: "Home Training",
+  goal: "Maximize muscle growth",
+  experience: "Intermediate to Advanced",
+  duration: "12 weeks",
+  focus: ["Volume optimization", "Muscle-specific training"],
+  price: "$119"
+}, {
+  name: "Longevity",
+  goal: "Build muscle while losing fat",
+  experience: "Intermediate",
+  duration: "16 weeks",
+  focus: ["Strategic nutrition timing", "Training intensity protocols"],
+  price: "$149"
+}];
 const Programs = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero */}
       <section className="section-padding bg-secondary">
         <div className="container-narrow text-center">
@@ -74,13 +67,9 @@ const Programs = () => {
       <section className="section-padding bg-secondary">
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {programs.map((program) => (
-              <div 
-                key={program.name}
-                className="bg-background border border-border p-8 md:p-10 flex flex-col"
-              >
+            {programs.map(program => <div key={program.name} className="bg-background border border-border p-8 md:p-10 flex flex-col">
                 <h3 className="font-display text-3xl tracking-wide mb-2">{program.name}</h3>
-                <p className="text-muted-foreground mb-6">{program.goal}</p>
+                <p className="text-muted-foreground mb-6 text-sm">{program.goal}</p>
                 
                 <div className="space-y-4 mb-8 flex-1">
                   <div className="flex justify-between py-2 border-b border-border">
@@ -94,11 +83,9 @@ const Programs = () => {
                   <div className="pt-2">
                     <span className="text-sm text-muted-foreground block mb-2">Focus Areas</span>
                     <ul className="space-y-1">
-                      {program.focus.map((f) => (
-                        <li key={f} className="text-sm flex items-center gap-2">
+                      {program.focus.map(f => <li key={f} className="text-sm flex items-center gap-2">
                           <span className="text-muted-foreground">—</span> {f}
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
                   </div>
                 </div>
@@ -110,8 +97,7 @@ const Programs = () => {
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -135,8 +121,6 @@ const Programs = () => {
           </Link>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Programs;
