@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const programs = [
   {
-    name: "Home Training",
+    name: "Hypertrophy",
     goal: "Build muscle with precision",
     experience: "Beginner to Intermediate",
     duration: "8 weeks",
@@ -13,7 +13,7 @@ const programs = [
     price: "$79"
   },
   {
-    name: "Longevity",
+    name: "Home Training",
     goal: "Maximize muscle growth",
     experience: "Intermediate to Advanced",
     duration: "12 weeks",
