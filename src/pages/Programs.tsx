@@ -14,7 +14,7 @@ const programs = [
   },
   {
     name: "Home Training",
-    goal: "Maximize muscle growth",
+    goal: "Train anywhere, consistently.",
     experience: "Intermediate to Advanced",
     duration: "12 weeks",
     focus: ["Volume optimization", "Muscle-specific training"],
@@ -22,7 +22,7 @@ const programs = [
   },
   {
     name: "Longevity",
-    goal: "Build muscle while losing fat",
+    goal: "Protect your future self",
     experience: "Intermediate",
     duration: "16 weeks",
     focus: ["Strategic nutrition timing", "Training intensity protocols"],
